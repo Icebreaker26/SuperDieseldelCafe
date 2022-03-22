@@ -5,7 +5,7 @@
    font-family: 'Staatliches', cursive;
    font-size:100px;
    color: red;
-    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+   text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #FFF, -1px 1px 0 #fff;
 
 
 }
@@ -64,6 +64,10 @@ margin: 0 auto;
     text-align:center;
 
 
+
+
+
+
 }
 
 #timeline img {
@@ -82,7 +86,7 @@ margin: 0 auto;
     font-family: 'Staatliches', cursive;
     color: red;
     font-size:80px;
-    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #FFF, -1px 1px 0 #fff;
 
 }
 
@@ -93,6 +97,7 @@ margin: 0 auto;
     width: 100%;
     
     text-align: center;
+
     
     
     
@@ -104,7 +109,7 @@ margin: 0 auto;
 #horizonte h1{
     font-size:100px;
     color:red;
-    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #FFF, -1px 1px 0 #fff;
 
 
 }
@@ -121,13 +126,14 @@ margin: 0 auto;
 #services{
 
     position: relative;
+    background-image: url(static/fondonegro.jpg);
+
 
 }
 
 #retro{
 
 width: 100%;
-background:black;
 }
 
 #retro img{
@@ -154,6 +160,15 @@ background:black;
 
 }
 
+#servicesgrid{
+
+    display:grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    row-gap: 20px;
+    text-align: center;
+
+
+}
 /*----------------------------------------------------*/
 
 #footer{
@@ -161,9 +176,6 @@ background:black;
 
     background-color:black;
     
-
-
-
 }
 
 
