@@ -98,6 +98,7 @@ margin: 0 auto;
     
     background-image: url(static/tallerbokeh2.png);
     background-size: cover;
+    background-position: fixed;
 }
 
 #horizonte h1{
