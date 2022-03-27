@@ -285,6 +285,26 @@ width: 100%;
         background-color: var(--linkedin);
     }
 
+/*------------------------*/
+#modalgrid{
 
+    display:grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+#modalpic{
+
+    width: 100%;
+
+}
+
+#modalinfo{
+
+    text-align: justify;
+    padding-left: 10%;
+    margin-top: 20%;
+
+}
 
 

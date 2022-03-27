@@ -100,7 +100,7 @@
               <div class="card-body">
                 <h5 class="card-title">Escanér Automotriz</h5>
                 <p class="card-text"><br></p>
-                <button type="button" class="btn btn-warning w-75" data-bs-toggle="modal" data-bs-target="#exampleModal">¡Descubrir!</button>
+                <button type="button" class="btn btn-warning w-75" data-bs-toggle="modal" data-bs-target="#modalscanner">¡Descubrir!</button>
               </div>
             </div>
 
@@ -108,7 +108,7 @@
               <div class="card-body">
                 <h5 class="card-title">Revisión de Sistemas de Inyección</h5>
                 <p class="card-text"><br></p>
-                <button type="button" class="btn btn-warning w-75" data-bs-toggle="modal" data-bs-target="#exampleModal">¡Descubrir!</button>
+                <button type="button" class="btn btn-warning w-75" data-bs-toggle="modal" data-bs-target="#modalinyeccion">¡Descubrir!</button>
               </div>
             </div>
 
@@ -116,7 +116,7 @@
               <div class="card-body">
                 <h5 class="card-title">Sincronización de Motores</h5>
                 <p class="card-text"><br></p>
-                <button type="button" class="btn btn-warning w-75" data-bs-toggle="modal" data-bs-target="#exampleModal">¡Descubrir!</button>
+                <button type="button" class="btn btn-warning w-75" data-bs-toggle="modal" data-bs-target="#modalsincronizacion">¡Descubrir!</button>
               </div>
             </div>
 
@@ -125,7 +125,7 @@
                 <h5 class="card-title">Reparación de Motores</h5>
                 <p class="card-text">
                   <br></p>
-                <button type="button" class="btn btn-warning w-75" data-bs-toggle="modal" data-bs-target="#exampleModal" >¡Descubrir!</button>
+                <button type="button" class="btn btn-warning w-75" data-bs-toggle="modal" data-bs-target="#modalremotores" >¡Descubrir!</button>
               </div>
             </div>
 
@@ -133,7 +133,7 @@
               <div class="card-body">
                 <h5 class="card-title">Reparación de Transmisiones</h5>
                 <p class="card-text"><br></p>
-                <button type="button" class="btn btn-warning w-75" data-bs-toggle="modal" data-bs-target="#exampleModal" >¡Descubrir!</button>
+                <button type="button" class="btn btn-warning w-75" data-bs-toggle="modal" data-bs-target="#modalretransmisiones" >¡Descubrir!</button>
               </div>
             </div>
 
@@ -141,7 +141,7 @@
               <div class="card-body">
                 <h5 class="card-title">Reparación cajas de velocidades Fuller y electrónicas</h5>
                 <p class="card-text"></p>
-                <button type="button" class="btn btn-warning w-75" data-bs-toggle="modal" data-bs-target="#exampleModal" >¡Descubrir!</button>
+                <button type="button" class="btn btn-warning w-75" data-bs-toggle="modal" data-bs-target="#modalfuller" >¡Descubrir!</button>
               </div>
             </div>
 
@@ -207,6 +207,15 @@
 
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3339.901631703114!2d-75.871517385909!3d4.892249867816648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38815936a9f82d%3A0x39d7f4d4d8c63dc3!2sSuper%20Diesel%20del%20Caf%C3%A9%20Taller%20de%20reparaci%C3%B3n%20de%20motores%20di%C3%A9sel.!5e0!3m2!1ses!2sco!4v1648401006560!5m2!1ses!2sco"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
+          <br>
+          <br>
+
+          <a href="https://api.whatsapp.com/send/?phone=573136672175&text&app_absent=0" target="_blank">
+            <button type="button" class="btn btn-outline-success">
+             <img src="static/whatsapp.png" width="40px;">   3136672175
+            </button>
+          </a>
+    
         </div>
 
         <footer id="footer">
@@ -219,7 +228,7 @@
               <ul>
                 <li><a href="https://www.facebook.com/S%C3%BAper-Di%C3%A9sel-del-Caf%C3%A9-105306824681089" target="_blank" class="fab fa-facebook"></a></li>
                 <li><a href="https://www.instagram.com/superdieseldelcafe/" target="_blank" class="fab fa-instagram"></a></li>
-                <li><a href="" target="_blank" class="fab fa-whatsapp"></a></li>
+                <li><a href="https://api.whatsapp.com/send/?phone=573136672175&text&app_absent=0" target="_blank" class="fab fa-whatsapp"></a></li>
         
               </ul>
             </div>
@@ -236,19 +245,188 @@
       -->
         
 
-        <!-- Modal PLANTILLA-->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered">
+        <!-- Modal SCANNER-->
+        <div class="modal fade" id="modalscanner" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-xl">
             <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">SERVICIOS</h5>
+              <div class="modal-header bg-dark text-light">
+                <h5 class="modal-title" id="exampleModalLabel">SCANNER AUTOMOTRIZ</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="modal-body">
-                ¡Proximamente podrás conocer sobre todos nuestros servivios!
+              <div class="modal-body bg-danger text-light">
+                  <div id="modalgrid">
+                  <div id="modalpic">
+                    <img src="static/servicios/scanner.jpg" width="600px;">
+                  </div>
+                  <div id="modalinfo">
+                    <p>
+
+                      El scanner automotriz es una herramienta empleada en el diagnóstico de las
+                       fallas registradas en el área electrónica de un auto específicamente en la 
+                       computadora del mismo, computadora en la cual se manejan y detectan señales 
+                       indebidas quedando registradas con un código de error.
+
+                    </p>
+                  </div>
+                  </div>
               </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <div class="modal-footer bg-dark text-light">
+                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+                <!--<button type="button" class="btn btn-primary">Save changes</button> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal INYECCION-->
+        <div class="modal fade" id="modalinyeccion" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+              <div class="modal-header bg-dark text-light">
+                <h5 class="modal-title" id="exampleModalLabel">Revisión de Sistemas de Inyección</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body bg-danger text-light">
+                  <div id="modalgrid">
+                  <div id="modalpic">
+                    <img src="static/servicios/inyeccion.png" width="400px;">
+                  </div>
+                  <div id="modalinfo">
+                    <p>
+
+                      El sistema de inyección de combustible es un mecanismo de alimentación de los motores de combustión interna, en los que el carburador ha sido sustituido por los inyectores. En coches diésel es obligatorio, porque el combustible se inyecta en la cámara en el mismo momento de la combustión.
+
+                    </p>
+                  </div>
+                  </div>
+              </div>
+              <div class="modal-footer bg-dark text-light">
+                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+                <!--<button type="button" class="btn btn-primary">Save changes</button> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+         <!-- Modal SINCRONIZACION-->
+         <div class="modal fade" id="modalsincronizacion" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+              <div class="modal-header bg-dark text-light">
+                <h5 class="modal-title" id="exampleModalLabel"> Sincronización de Motores </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body bg-danger text-light">
+                  <div id="modalgrid">
+                  <div id="modalpic">
+                    <img src="static/servicios/sincronizacion.jpg" width="600px;">
+                  </div>
+                  <div id="modalinfo">
+                    <p>
+
+                      La sincronización consiste en que coincida correctamente el funcionamiento de todas las piezas de los sistemas de encendido, distribución y alimentación del carro para recuperar su eficiencia original.
+
+                    </p>
+                  </div>
+                  </div>
+              </div>
+              <div class="modal-footer bg-dark text-light">
+                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+                <!--<button type="button" class="btn btn-primary">Save changes</button> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal REPARACION MOTORES-->
+        <div class="modal fade" id="modalremotores" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+              <div class="modal-header bg-dark text-light">
+                <h5 class="modal-title" id="exampleModalLabel"> Reparación de Motores </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body bg-danger text-light">
+                  <div id="modalgrid">
+                  <div id="modalpic">
+                    <img src="static/servicios/remotores.jpeg" width="600px;">
+                  </div>
+                  <div id="modalinfo">
+                    <p>
+
+                      Una reparación de motor generalmente se hace por el uso, el deterioro, el mugre y los roces provocan que sufra un desgaste que hace que las piezas pierdan calibración y alteren el correcto funcionamiento aunque depende del uso y cuidados que se le ha dado.
+
+                    </p>
+                  </div>
+                  </div>
+              </div>
+              <div class="modal-footer bg-dark text-light">
+                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+                <!--<button type="button" class="btn btn-primary">Save changes</button> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+         <!-- Modal REPARACION TRANSMISIONES-->
+         <div class="modal fade" id="modalretransmisiones" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+              <div class="modal-header bg-dark text-light">
+                <h5 class="modal-title" id="exampleModalLabel"> Reparación de Transmisiones </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body bg-danger text-light">
+                  <div id="modalgrid">
+                  <div id="modalpic">
+                    <img src="static/servicios/transmision.jpg" width="600px;">
+                  </div>
+                  <div id="modalinfo">
+                    <p>
+
+                      El sistema de transmisión de un vehículo permite que llegue a las ruedas motrices la potencia y movimiento necesarios para funcionar, y consiste en una serie de componentes encargados de conducir desde el cigüeñal la potencia suficiente para que las ruedas motrices giren.
+                      <br>
+
+                      Para conocer el funcionamiento de los distintos tipos de transmisión que puede llevar equipado nuestro vehículo, es imprescindible conocer los diferentes elementos que componen este sistema:
+                      <br>
+                      🔴EMBRAGUE🔴CAJA DE VELOCIDADES🔴ÁRBOL DE TRANSMISIÓN🔴DIFERENCIAL🔴
+                    </p>
+                  </div>
+                  </div>
+              </div>
+              <div class="modal-footer bg-dark text-light">
+                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+                <!--<button type="button" class="btn btn-primary">Save changes</button> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Modal REPARACION CAJAS DE VELOCIDADES FULLER Y ELECTRONICAS-->
+        <div class="modal fade" id="modalfuller" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+              <div class="modal-header bg-dark text-light">
+                <h5 class="modal-title" id="exampleModalLabel"> Reparación cajas de velocidades Fuller y electrónicas </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body bg-danger text-light">
+                  <div id="modalgrid">
+                  <div id="modalpic">
+                    <img src="static/servicios/fuller.jpg" width="600px;">
+                  </div>
+                  <div id="modalinfo">
+                    <p>
+
+                      Las Cajas Fuller, son aquellas comunmente usadas en camiones y se encuentran disponibles de acuerdo al modelo y aplicación, en configuraciones desde 6 hasta 18 velocidades.
+                    </p>
+                  </div>
+                  </div>
+              </div>
+              <div class="modal-footer bg-dark text-light">
+                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
                 <!--<button type="button" class="btn btn-primary">Save changes</button> -->
               </div>
             </div>
