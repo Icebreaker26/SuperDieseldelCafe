@@ -19,7 +19,7 @@
     background-size: cover;
     background-position: fixed;
 }  
-@media(min-width:768px){ 
+
 #frase{
 
     display: grid;
@@ -49,55 +49,17 @@
 #frase button {
 
 width:100%;
-
-}
-#frase img {
-
-margin: 0 auto;
-
-
-}
 }
 
-@media(max-width:768px){ 
-    #frase{
-
-        display: grid;
-        grid-template-columns: 50% 45%;
-        height: 350px;
-        background: #000;
-        padding:5%;
-        
-    
-    }
-    
-    #frase h1{
-    
-        margin-top:0 auto;
-        
-        text-align: center;
-        font-family: 'Staatliches', cursive;
-        color: red;
-       text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
-    
-    }
-    
-    #frase span {
-        color: #fff;
-    }
-    
-    #frase button {
-    
-    width:100%;
-    
-    }
-    #logofrase{
+#logofrase{
     
     width:100%;
     
     
     }
-    }
+#logofrase img {
+        width:100%;
+}
 
 
 #visitanos{
@@ -195,6 +157,10 @@ margin: 0 auto;
 
     width:100%;
 
+}
+#mula img{
+
+    width:100%;
 }
 
 #services{
