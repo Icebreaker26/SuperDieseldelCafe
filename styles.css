@@ -19,7 +19,7 @@
     background-size: cover;
     background-position: fixed;
 }  
-
+@media(min-width:768px){ 
 #frase{
 
     display: grid;
@@ -51,18 +51,59 @@
 width:100%;
 
 }
-
 #frase img {
 
 margin: 0 auto;
 
 
 }
+}
+
+@media(max-width:768px){ 
+    #frase{
+
+        display: grid;
+        grid-template-columns: 50% 45%;
+        height: 350px;
+        background: #000;
+        padding:5%;
+        
+    
+    }
+    
+    #frase h1{
+    
+        margin-top:0 auto;
+        
+        text-align: center;
+        font-family: 'Staatliches', cursive;
+        color: red;
+       text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    
+    }
+    
+    #frase span {
+        color: #fff;
+    }
+    
+    #frase button {
+    
+    width:100%;
+    
+    }
+    #logofrase{
+    
+    width:100%;
+    
+    
+    }
+    }
+
 
 #visitanos{
 
     background:url("static/tallerbokeh3.jpg"); /* Nuestra imagen de fondo */
-	background-repeat:no-repeat; /* Indicamos que no se repetira */
+	background-repeat:repeat; /* Indicamos que no se repetira */
 	background-size:100%; /* Encajamos la imagen al 100% del ancho */
 	background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
      background-position:auto;
@@ -150,6 +191,11 @@ margin: 0 auto;
 
 
 }
+#mula{
+
+    width:100%;
+
+}
 
 #services{
 
@@ -159,22 +205,15 @@ margin: 0 auto;
 
 }
 
-#retro{
-padding: 20px;
-width: 100%;
-}
 
-#retro img{
-    width: 60%;
 
-}
 
 .overlay{
 
     position: absolute;
     width: 90%;
    /*background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));*/
-    margin-top: -25%;
+    margin-top: -10%;
     font-family: 'Staatliches', cursive;
 
 }
@@ -286,14 +325,21 @@ width: 100%;
     }
 
 /*------------------------*/
+
+@media(min-width:768px){ 
 #modalgrid{
 
     display:grid;
     grid-template-columns: 50% 50%;
 
 }
-
+}
 #modalpic{
+
+    width: 100%;
+
+}
+#modalpic img{
 
     width: 100%;
 
@@ -302,9 +348,8 @@ width: 100%;
 #modalinfo{
 
     text-align: justify;
-    padding-left: 10%;
-    margin-top: 20%;
-
+    padding: 3%;
+    padding-top: 3rem;
 }
 
 

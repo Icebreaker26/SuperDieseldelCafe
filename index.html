@@ -68,7 +68,7 @@
             <h1>"TRABAJAMOS CON MARGEN DE <br> <span>CERO FALLAS </span> CON CALIDAD HUMANA"</h1>
             <a href="pages/about.html"><button type="button" class="btn btn-outline-danger">Sobre nosotros</button></a>
         </div>
-        <img src="static/logo.jpg">
+        <img id="logofrase"src="static/logo.jpg">
         </div>
 
         
@@ -78,14 +78,10 @@
             <img src="static/Timeline2.png">
         </div>
 
+        <img id="mula" src="static/tractomula.jpeg">
+
         <div id="services">
-
-          <div id="retro">
-
-            <img src="static/camion2.png">
-
-          </div>
-          
+             
           <div class="overlay">
 
             <h1>SERVICIOS</h1>
@@ -157,7 +153,7 @@
               <div class="card-body">
                 <h5 class="card-title">Prueba Hidrostática</h5>
                 <p class="card-text"><br></p>
-                <button type="button" class="btn btn-warning w-75" data-bs-toggle="modal" data-bs-target="#exampleModal" >¡Descubrir!</button>
+                <button type="button" class="btn btn-warning w-75" data-bs-toggle="modal" data-bs-target="#modalhidrostatica" >¡Descubrir!</button>
               </div>
             </div>
 
@@ -165,7 +161,7 @@
               <div class="card-body">
                 <h5 class="card-title">Cambios de Aceite</h5>
                 <p class="card-text"><br></p>
-                <button type="button" class="btn btn-warning w-75" data-bs-toggle="modal" data-bs-target="#exampleModal" >¡Descubrir!</button>
+                <button type="button" class="btn btn-warning w-75" data-bs-toggle="modal" data-bs-target="#modalaceite" >¡Descubrir!</button>
               </div>
             </div>
 
@@ -173,7 +169,7 @@
               <div class="card-body">
                 <h5 class="card-title">Reparación de turbos</h5>
                 <p class="card-text"><br></p>
-                <button type="button" class="btn btn-warning w-75" data-bs-toggle="modal" data-bs-target="#exampleModal" >¡Descubrir!</button>
+                <button type="button" class="btn btn-warning w-75" data-bs-toggle="modal" data-bs-target="#modalturbo" >¡Descubrir!</button>
               </div>
             </div>
 
@@ -181,7 +177,7 @@
               <div class="card-body">
                 <h5 class="card-title">Servicio de Rectificadora</h5>
                 <p class="card-text">(convenio)</p>
-                <button type="button" class="btn btn-warning w-75" data-bs-toggle="modal" data-bs-target="#exampleModal" >¡Descubrir!</button>
+                <button type="button" class="btn btn-warning w-75" data-bs-toggle="modal" data-bs-target="#modalrectificadora" >¡Descubrir!</button>
               </div>
             </div>
 
@@ -189,7 +185,7 @@
               <div class="card-body">
                 <h5 class="card-title">Asistencia vehicular</h5>
                 <p class="card-text">(convenio)</p>
-                <button type="button" class="btn btn-warning w-75" data-bs-toggle="modal" data-bs-target="#exampleModal" >¡Descubrir!</button>
+                <button type="button" class="btn btn-warning w-75" data-bs-toggle="modal" data-bs-target="#modalasistencia" >¡Descubrir!</button>
               </div>
             </div>
 
@@ -256,7 +252,7 @@
               <div class="modal-body bg-danger text-light">
                   <div id="modalgrid">
                   <div id="modalpic">
-                    <img src="static/servicios/scanner.jpg" width="600px;">
+                    <img src="static/servicios/scanner.jpg">
                   </div>
                   <div id="modalinfo">
                     <p>
@@ -349,7 +345,7 @@
               <div class="modal-body bg-danger text-light">
                   <div id="modalgrid">
                   <div id="modalpic">
-                    <img src="static/servicios/remotores.jpeg" width="600px;">
+                    <img src="static/servicios/remotores.jpeg">
                   </div>
                   <div id="modalinfo">
                     <p>
@@ -380,7 +376,7 @@
               <div class="modal-body bg-danger text-light">
                   <div id="modalgrid">
                   <div id="modalpic">
-                    <img src="static/servicios/transmision.jpg" width="600px;">
+                    <img src="static/servicios/transmision.jpg">
                   </div>
                   <div id="modalinfo">
                     <p>
@@ -415,7 +411,7 @@
               <div class="modal-body bg-danger text-light">
                   <div id="modalgrid">
                   <div id="modalpic">
-                    <img src="static/servicios/fuller.jpg" width="600px;">
+                    <img src="static/servicios/fuller.jpg">
                   </div>
                   <div id="modalinfo">
                     <p>
@@ -433,7 +429,155 @@
           </div>
         </div>
 
-      
+         <!-- PRUEBA HIDROSTÁTICA-->
+         <div class="modal fade" id="modalhidrostatica" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+              <div class="modal-header bg-dark text-light">
+                <h5 class="modal-title" id="exampleModalLabel"> PRUEBA HIDROSTÁTICA </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body bg-danger text-light">
+                  <div id="modalgrid">
+                  <div id="modalpic">
+                    <img src="static/servicios/hidrostatica.jpg">
+                  </div>
+                  <div id="modalinfo">
+                    <p>
+                      La Prueba Hidrostática es el procedimiento a través del cual podemos determinar si el cilindro posee fugas, defectos o si está en perfectas condiciones para ser recargado.                    </p>
+                    
+                    </div>
+                  </div>
+              </div>
+              <div class="modal-footer bg-dark text-light">
+                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+                <!--<button type="button" class="btn btn-primary">Save changes</button> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+         <!-- CAMBIO DE ACEITE-->
+         <div class="modal fade" id="modalaceite" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+              <div class="modal-header bg-dark text-light">
+                <h5 class="modal-title" id="exampleModalLabel"> CAMBIO DE ACEITE </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body bg-danger text-light">
+                  <div id="modalgrid">
+                  <div id="modalpic">
+                    <img src="static/servicios/aceite.jpg">
+                  </div>
+                  <div id="modalinfo">
+                    <p>
+                      El aceite es el lubricante que garantiza el correcto funcionamiento de todas las piezas internas del motor. Debe sustituirse cuando establezca el libro de mantenimiento del vehículo, lo cual suele comprender entre 15.000 y 30.000 km.
+                    </div>
+                  </div>
+              </div>
+              <div class="modal-footer bg-dark text-light">
+                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+                <!--<button type="button" class="btn btn-primary">Save changes</button> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <!-- REPARACIÓN DE TURBOS-->
+        <div class="modal fade" id="modalturbo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+              <div class="modal-header bg-dark text-light">
+                <h5 class="modal-title" id="exampleModalLabel"> REPARACIÓN DE TURBOS </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body bg-danger text-light">
+                  <div id="modalgrid">
+                  <div id="modalpic">
+                    <img src="static/servicios/turbo.jpeg">
+                  </div>
+                  <div id="modalinfo">
+                    <p>
+                      Un turbocompresor, también llamado turbo es un sistema de sobrealimentación compuesto por una turbina centrífuga y un compresor para comprimir gases. Es uno de los sistemas más utilizados para sobrealimentar motores de combustión interna, sobretodo en motores diésel.  El turbocompresor introduce aire a presión en los cilindros. Al disponer de más oxígeno, se puede quemar más combustible y por lo tanto conseguir más par.
+                    </p>
+                    </div>
+                  </div>
+              </div>
+              <div class="modal-footer bg-dark text-light">
+                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+                <!--<button type="button" class="btn btn-primary">Save changes</button> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SERVICIO DE RECTIFICADORA-->
+        <div class="modal fade" id="modalrectificadora" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+              <div class="modal-header bg-dark text-light">
+                <h5 class="modal-title" id="exampleModalLabel"> SERVICIO DE RECTIFICADORA </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body bg-danger text-light">
+                  <div id="modalgrid">
+                  <div id="modalpic">
+                    <img src="static/servicios/rectificadora.jpg">
+                  </div>
+                  <div id="modalinfo">
+                    <p>
+                      Elimina óxido, carbón, aceite, pintura, grasas y cualquier otra impureza adherida a la pieza.
+
+                    </p>
+                    </div>
+                  </div>
+              </div>
+              <div class="modal-footer bg-dark text-light">
+                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+                <!--<button type="button" class="btn btn-primary">Save changes</button> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ASISTENCIA VEHICULAR -->
+        <div class="modal fade" id="modalasistencia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+              <div class="modal-header bg-dark text-light">
+                <h5 class="modal-title" id="exampleModalLabel"> ASISTENCIA VEHICULAR </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body bg-danger text-light">
+                <div id="modalgrid">
+                  <div id="modalpic">
+                    <img src="static/servicios/asistencia.jpg">
+                  </div>
+                  <div id="modalinfo" style="text-align:center;">
+                    <p>
+
+                      ¡Comunícate con nosotros para tener más información sobre nuestro servicio de asistencia vehicular!
+                      
+                    </p>
+
+                  <a href="https://api.whatsapp.com/send/?phone=573136672175&text&app_absent=0" target="_blank">
+                  <button type="button" class="btn btn-outline-success">
+                  <img src="static/whatsapp.png" width="40px;">   3136672175
+                  </button>
+                  </a>
+
+                    </div>
+                  </div>
+              </div>
+              <div class="modal-footer bg-dark text-light">
+                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+                <!--<button type="button" class="btn btn-primary">Save changes</button> -->
+              </div>
+            </div>
+          </div>
+        </div>
 
 
 
