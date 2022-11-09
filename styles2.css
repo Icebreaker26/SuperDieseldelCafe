@@ -1,0 +1,26 @@
+body {
+    background-color: lightblue;
+  }
+  
+#titulo{
+
+color:red;
+font-size: 5vw;
+text-align:center;
+font-family: 'Rubik Marker Hatch', cursive;
+
+
+}
+
+#spacer{
+
+    height:200px;
+
+}
+
+#contenedor{
+
+    background-color: black;
+    height: 100vh;
+
+}
